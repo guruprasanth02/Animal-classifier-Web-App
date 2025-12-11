@@ -216,12 +216,6 @@ Model Not Found: Run train_models.py before using the app
 Image Misclassification: Try different models or improve dataset quality
 
 ---
-## 📚 Credits
-Dataset: Kaggle Fruits Dataset
-
-Built by: Shreenidhi — Full-stack ML engineer & educational architect
-
----
 ## 📌 License
 This project is open-source and free to use for educational purposes.
 
