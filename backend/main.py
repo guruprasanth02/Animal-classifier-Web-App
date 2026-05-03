@@ -9,12 +9,15 @@ from preprocessing import extract_color_histogram
 from model_utils import load_model, predict
 import io
 
+# Allow wildcard CORS for deployment (can be restricted later)
+import os
+
 app = FastAPI()
 
 # Add CORS middleware to allow requests from your React frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # The origin of your React app
+    allow_origins=["*"],  # Allow all origins for deployment; restrict later with specific frontend URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
