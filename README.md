@@ -5,7 +5,7 @@ A beginner-friendly machine learning project that lets users upload animal image
 ---
 
 ## 🌐 Live Demo
-Try the app here: **[Animal Classifier Web App](https://animal-classifier-web-app-1.onrender.com/)** 🚀
+Try the app here: **[Animal Classifier Web App](https://animal-classifier-web-app-1.onrender.com/)** 
 
 
 ## 🎯 Project Goals
